@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - command: |
+      sudo apt update
+      sudo apt install -y python3.10 python3.10-venv python3.10-dev
+      python3.10 --version
+
